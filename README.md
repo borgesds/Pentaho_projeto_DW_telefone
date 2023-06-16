@@ -1,31 +1,32 @@
-# Mini Projeto de Data Warehouse e Pentaho
 
-A empresa XPTO atua no mercado com a venda de seus produtos, 
-que internamente são cadastrados em um sistema de gestão ERP. 
-Atualmente a única base de dados que a empresa possui é a 
-própria base do sistema ERP, nada mais que isto. Toda extração 
-de relatório e análises são feitas inteiramente pelos relatórios 
-disponibilizados no sistema, assim tendo algumas limitações para 
-análise.
-A empresa está crescendo e com ela também a necessidade de 
-possuir um rápido acesso aos dados, um controle mais específico 
-e que possa ser facilmente implementado em um BI.
-Requisitos de negócio: Cadastrar as vendas feitas em cada filial. 
+# Projeto Real: Integração de Dados com Pentaho e Data Warehouse
 
-__________________________________________________________________________________________________________________________________________
-![Modelagem+Vendas_page-0001](https://github.com/borgesds/Mini_projeto_Pentaho_e_DW/assets/82332461/ae36bbe0-b3e2-490d-8708-b260c33a3e41)
+Este projeto real tem como objetivo demonstrar a implementação de um fluxo de integração de dados utilizando as ferramentas Pentaho e Data Warehouse, com o auxílio da linguagem de programação Python.
 
-__________________________________________________________________________________________________________________________________________
-![dim_filial](https://github.com/borgesds/Mini_projeto_Pentaho_e_DW/assets/82332461/d037ee91-64b6-4499-a98a-7a9967d17e3f)
+### Descrição
+O projeto consiste em uma solução para lidar com uma grande quantidade de dados provenientes de arquivos CSV. Inicialmente, os arquivos CSV são processados e tratados utilizando Python, aproveitando sua eficiência no processamento de grandes volumes de dados. Nessa etapa, são aplicadas técnicas de limpeza, transformação e manipulação dos dados, garantindo sua qualidade e integridade.
 
-__________________________________________________________________________________________________________________________________________
-![dim_produto](https://github.com/borgesds/Mini_projeto_Pentaho_e_DW/assets/82332461/eb7fee4d-29d3-4ff7-80a8-15774b488d37)
+Após o pré-processamento dos dados em Python, o Pentaho é utilizado para realizar os demais tratamentos necessários e integrar os dados ao Data Warehouse. O Pentaho oferece recursos poderosos para a criação de fluxos de trabalho de ETL (Extração, Transformação e Carga), permitindo a execução de tarefas como filtragem, agregação, enriquecimento e validação dos dados.
 
-__________________________________________________________________________________________________________________________________________
-![dim_tipoproduto](https://github.com/borgesds/Mini_projeto_Pentaho_e_DW/assets/82332461/4bf2c95c-4b95-41e0-8264-fa59016f26b1)
+### Funcionalidades
+Leitura e tratamento de arquivos CSV utilizando Python.
+Limpeza, transformação e manipulação dos dados em Python.
+Criação de fluxos de trabalho de ETL no Pentaho.
+Integração dos dados ao Data Warehouse.
+Atualização periódica dos dados no Data Warehouse.
 
-__________________________________________________________________________________________________________________________________________
-![dim_datas](https://github.com/borgesds/Mini_projeto_Pentaho_e_DW/assets/82332461/52b2f48e-21f7-49c5-af9e-af8cb4f227a4)
+### Tecnologias Utilizadas
+Python: Linguagem de programação utilizada para o pré-processamento e tratamento dos dados.
+Pentaho: Ferramenta utilizada para a criação dos fluxos de trabalho de ETL e integração dos dados ao Data Warehouse.
+Data Warehouse: Banco de dados utilizado para armazenar os dados de forma estruturada e otimizada para análises.
 
-__________________________________________________________________________________________________________________________________________
-![fato_vendas](https://github.com/borgesds/Mini_projeto_Pentaho_e_DW/assets/82332461/b6f49752-aa53-46bd-ba27-7188dc82bd81)
+
+![fato](https://github.com/borgesds/Pentaho_projeto_DW_telefone/assets/82332461/605d43e7-77eb-4ca8-baa6-e8a2553e0a16)
+
+![01](https://github.com/borgesds/Pentaho_projeto_DW_telefone/assets/82332461/8fdf03ab-2d74-485f-8211-df026d134fce)
+
+![02](https://github.com/borgesds/Pentaho_projeto_DW_telefone/assets/82332461/02b79ff5-d56d-4c0d-a0f1-1fa986e90c32)
+
+![03](https://github.com/borgesds/Pentaho_projeto_DW_telefone/assets/82332461/de387ebc-7dcc-4674-89af-765b15df52eb)
+
+
